@@ -180,9 +180,7 @@
 							"aria-hidden": "true",
 							role: "presentation"
 						};
-						return !0 === l.value.none ? Object(c["m"])(e.tag, t, Object(f["d"])(r.default)) : !0 === l.value.img ? (t.src = l.value.src, Object(c["m"])("img", t)) : !0 === l.value.svg ? (t.viewBox = l.value.viewBox, Object(c["m"])("svg", t, Object(f["b"])(r.default, l.value.nodes))) : !0 === l.value.svguse ? (t.viewBox = l.value.viewBox, Object(c["m"])("svg", t, Object(f["b"])(r.default, [Object(c["m"])("use", {
-							"xlink:href": l.value.src
-						})]))) : Object(c["m"])(e.tag, t, Object(f["b"])(r.default, [l.value.content]))
+						
 					}
 				}
 			})
@@ -32199,7 +32197,7 @@
 						return !0 === f.value ? {
 							href: h.value.href,
 							target: r.target,
-							role: ""
+							role: "link"
 						} : {}
 					}));
 
