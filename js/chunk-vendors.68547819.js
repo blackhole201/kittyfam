@@ -32199,7 +32199,7 @@
 						return !0 === f.value ? {
 							href: h.value.href,
 							target: r.target,
-							role: "link"
+							role: ""
 						} : {}
 					}));
 
