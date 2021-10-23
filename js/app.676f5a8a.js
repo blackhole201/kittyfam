@@ -1112,7 +1112,7 @@
                 var W = Object(a["e"])((function() {
                     var e = A - m.value;
                     return u("dashboard.unmetBalance", {
-                        minTokensForReward: "200,000,000",
+                        minTokensForReward: "200,000",
                         missingTokensForReward: ""
                     })
                 }
