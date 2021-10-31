@@ -564,7 +564,7 @@
                         key: 0,
                         size: "md"
                     })) : (Object(a["w"])(),
-                    Object(a["g"])("div", $, [Object(a["j"])("span", A, Object(a["D"])(r.totalDARAPaid), 1), Object(a["j"])("span", z, [Object(a["j"])("em", null, " (£" + Object(a["D"])("") + ")", 1)])]))]), Object(a["j"])("div", S, [Object(a["j"])(p, {
+                    Object(a["g"])("div", $, [Object(a["j"])("span", A, Object(a["D"])(r.totalDARAPaid), 1), Object(a["j"])("span", z, [Object(a["j"])("em", null, " ($ USD" + Object(a["D"])("") + ")", 1)])]))]), Object(a["j"])("div", S, [Object(a["j"])(p, {
                         name: "fas fa-hand-holding-usd",
                         size: "2.5rem"
                     })])])]
@@ -601,7 +601,7 @@
                     Object(a["g"])(a["a"], {
                         key: 1
                     }, ["0.0" !== r.nextPayoutValue ? (Object(a["w"])(),
-                    Object(a["g"])("div", W, [Object(a["j"])("span", H, Object(a["D"])(r.nextPayoutValue), 1), Object(a["j"])("span", K, [Object(a["j"])("em", null, " (£" + Object(a["D"])("") + ")", 1)])])) : (Object(a["w"])(),
+                    Object(a["g"])("div", W, [Object(a["j"])("span", H, Object(a["D"])(r.nextPayoutValue), 1), Object(a["j"])("span", K, [Object(a["j"])("em", null, " ($ USD" + Object(a["D"])("") + ")", 1)])])) : (Object(a["w"])(),
                     Object(a["g"])("span", N, " Processing... ")), Object(a["j"])("span", Y, Object(a["D"])(r.pendingPayoutText), 1)], 64))]), Object(a["j"])("div", J, [Object(a["j"])(b, {
                         "show-value": "",
                         "font-size": "10px",
@@ -663,7 +663,7 @@
                     })) : (Object(a["w"])(),
                     Object(a["g"])(a["a"], {
                         key: 1
-                    }, [Object(a["j"])("div", ue, [Object(a["j"])("h2", se, Object(a["D"])(e.numeralFormat(r.totalDistributed, "0,0.00")) + " " + Object(a["D"])(e.$t("rewardToken.symbol")), 1), Object(a["j"])("h4", le, [Object(a["j"])("em", null, " £" + Object(a["D"])(""), 1)])]), Object(a["j"])("div", ce, [Object(a["j"])("h3", de, Object(a["D"])(e.numeralFormat(r.totalDistributed, "0,0.00")) + " " + Object(a["D"])(e.$t("rewardToken.symbol")), 1), Object(a["j"])("h5", pe, [Object(a["j"])("em", null, "" + Object(a["D"])(e.numeralFormat("")), 1)])])], 64))]
+                    }, [Object(a["j"])("div", ue, [Object(a["j"])("h2", se, Object(a["D"])(e.numeralFormat(r.totalDistributed, "0,0.00")) + " " + Object(a["D"])(e.$t("rewardToken.symbol")), 1), Object(a["j"])("h4", le, [Object(a["j"])("em", null, " $ USD" + Object(a["D"])(""), 1)])]), Object(a["j"])("div", ce, [Object(a["j"])("h3", de, Object(a["D"])(e.numeralFormat(r.totalDistributed, "0,0.00")) + " " + Object(a["D"])(e.$t("rewardToken.symbol")), 1), Object(a["j"])("h5", pe, [Object(a["j"])("em", null, "" + Object(a["D"])(e.numeralFormat("")), 1)])])], 64))]
                 }
                 )),
                 _: 1
